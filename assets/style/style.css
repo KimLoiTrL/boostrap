@@ -6,9 +6,14 @@
 
 .color-t{
     color: #012970;
-    font-size: 15px;
     font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: "Poppins", sans-serif;
+}
+
+.card .color-t{
+    color: #012970;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
 }
 
 /* HEADER - NAV */
@@ -454,26 +459,35 @@
 }
 
 /* NEWS */
-.symbol{
-    padding-bottom: 24px;
+.news .post-item + .post-item {
+	margin-top: 15px;
+}
+  
+.news img {
+	width: 80px;
+	float: left;
+	border-radius: 5px;
 }
 
-.symbol-title{
-    margin-left: 12px;
+.news h4 {
+    font-size: 15px;
+    margin-left: 95px;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
-.text-w{
-    font-weight: 550;
+.news h4 a {
+	color: #012970;
+	transition: 0.3s;
 }
 
-.text-gray{
-    color: gray;
-    font-weight: 400;
+.news h4 a:hover {
+    color: #4154f1;
 }
 
-@media (max-width: 767px) {
-    .caption{
-        margin-bottom: 8px;
-    }
+.news p {
+	font-size: 14px;
+	color: #777777;
+	margin-left: 95px;
 }
 
