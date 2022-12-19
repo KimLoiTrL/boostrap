@@ -153,22 +153,9 @@
 	padding-bottom: 0;
 }
 
-@media (min-width: 1200px){
-    .nav-text{
-        padding-left: 380px;
-    }
-}
-
-@media (max-width: 1199px){
-    .nav-texts{
-        padding-left: 500px;
-    }
-}
-
-@media (max-width: 767px){
-    .nav-texts{
-        padding-left: 50px;
-    }
+.navbar-right{
+    position: fixed; 
+    right: 0;
 }
 
 /* SIDEBAR */
